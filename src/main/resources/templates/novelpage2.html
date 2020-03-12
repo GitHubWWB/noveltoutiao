@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en" style="font-size: 53.3333px;"><head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="x5-orientation" content="portrait">
+	<meta http-equiv="Pragma" content="no-cache">
+	<title>隔壁房门半掩，传来了声嗯…嗯</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0
+		}
+		body{
+			font-size: .26rem;
+			line-height:1.5;
+			/*增加 start*/
+			background:#F9F4E9;
+			/*增加 end*/
+		}
+		h2{
+			font-size: .36rem;
+			font-weight: bold;
+			text-align: center;
+			line-height:1.5;
+		}
+		h3{
+			font-size: .26rem;
+			font-weight: bold;
+			text-indent: 2em;
+			margin-top: .30rem;
+			line-height:1.5;
+		}
+    /*----更改---*/
+		.main p{
+			font-size: .4rem;
+			text-indent: 2em;
+			margin-top: .45rem;
+			line-height:1.6;
+      color: rgb(70, 70, 70);
+		}
+    .foot_m {margin-top:.3rem; padding:.3rem 0;}
+    /*----更改---*/
+		.foot p{
+            text-align: center;
+            font-weight: bold;
+			font-size: .36rem;
+			padding-top: .30rem;
+			line-height:1.2;
+		}
+        .f_red {color:crimson}
+        .foot_img {margin-top:.3rem;}
+        .foot_img img {width:100%;}
+        /* ----更改---- */
+        .foot2 {background-color: rgb(222, 193, 135);position: relative; padding:0 1.75rem 0 .9rem; height:.9rem;line-height: .7rem;}
+        .foot2 .icon{position: absolute; left:.14rem; top:.2rem; width:.5rem; height:.5rem; border-radius:50%;}
+        .foot2 p{position: relative; top:.1rem;height:.65rem;
+            text-align: left; color:#333; font-size:.25rem; 
+            overflow: hidden;
+            text-overflow:ellipsis;
+            white-space: nowrap;}
+        .foot2 .copyxs {position: absolute; right: .14rem; top:.2rem;}
+        .copyxs {display:inline-block; border-radius: .16rem; padding:0 .2rem; height:.55rem; line-height: .55rem;
+            text-align: center; color:#fff; font-size:.25rem; background-color:rgb(219, 43, 15); text-decoration: none;}
+        .foot4 {width: 7.5rem;position: fixed;bottom: 0;background-color: rgb(222, 193, 135);height:.8rem;line-height: .8rem;}
+        .foot4 .icon {width:.5rem; height:.5rem; border-radius:50%;position: absolute; left:.14rem;top:.17rem;}
+        .foot4 p {margin-left: .9rem;}
+        .foot4 .copyxs {position: absolute; right: .14rem;margin-left: .9rem;top: .15rem;}
+        /* ----更改---- */
+        .foot3 { margin-top:.3rem;}
+        .foot3 p{
+            text-align: left;
+			font-size: .3rem;
+			padding: .30rem 0 .5rem;
+			line-height:1.5;
+		}
+        .foot3 strong {position: relative; left:-.1rem;color: #434343;}
+        .foot3 .f_red {font-weight: bold;}
+
+        .dialog { position: fixed; top:0; right:0; bottom:0; left:0; width:100%; height:100%; z-index: 5; background:rgba(0,0,0,0.4);}
+        .dialog_m { position: fixed; top:50%; left:10%; margin-top:-2.5rem; width:80%; height:4.4rem; background:#fff; border-radius: .4rem;}
+        .dialog_m .h3 { margin-top:.4rem; padding:.3rem 0;text-align: center; font-size: .45rem; color:#333; font-weight: bold;}
+        .dialog_m p {text-align: center; font-size: .35rem; color:#454545;}
+        .dialog_m a {display:block; margin:0 auto; margin-top:.4rem; border-radius: .5rem; width:80%; height:1rem; line-height: 1rem; background:red; text-align: center;
+            font-size:.45rem; color:#fff;text-decoration: none;}
+        .top_ban {padding-top:.3rem;}
+        .top_ban img {width:100%;}
+		/*增加 start*/
+    /* -------更改------- */
+		p.chapter{
+			color: rgb(255, 255, 255);
+			border-color: rgb(222, 193, 135);
+			border-width: 0.0266667rem;
+			border-radius: 0.56rem;
+			background-color: rgb(203, 35, 2);
+			text-align:center;
+			width:50%;
+			margin:.5rem auto 0;
+			text-indent: inherit!important;
+		}
+    .schedule {position: absolute;left: .45rem;margin-top: .3rem;}
+    .schedule .circle {position: absolute;width: .35rem;height: .35rem;top: 0;background-color: #dec187;border-radius: 50%;}
+    .circle span {width: .2rem; height: .2rem; border-radius: 50%;background-color: #b68a32;position: absolute;top: .08rem;left: .08rem;}
+    .schedule .line {width: 1px;height:7.8rem;background-color: #dec187;position: absolute;left: .17rem;}
+    .procedure {margin-left: .8rem;}
+    .procedure img{width: 100%;}
+    /* -------更改------- */
+		/*增加 end*/
+    </style>
+	
+	<script src="https://pv.sohu.com/cityjson?ie=utf-8"></script>
+	
+</head>
+      <!-- ----更改--- -->
+<body style="min-height: 335px;">
+      <!-- ----更改--- -->
+	<!-- 增加 style="padding:0;"-->
+    <div class="top_ban" style="padding:0;"><img src="/img/head1.jpg"></div>
+      <!-- ----更改--- -->
+      <div class="main" style="padding: 0 .40rem .38rem;">
+      <!-- ----更改--- -->
+        <p class="chapter">第一章</p>
+        <p>暗夜时分，兰宁市的一座天桥底下，意识陷于朦胧中的萧尘忽然惊醒。</p>
+        <p>“我为何没死，这里是什么地方？”</p>
+        <p>萧尘站起身，打算勘察一下四周环境，却一不留神，差点摔倒。</p>
+        <p>“身体四肢僵硬，好似不听使唤！”</p>
+        <p>随即，他忆起了往事，不禁皱起了眉头。</p>
+        <p>“地球？难道我又回来了？”</p>
+        <p>五百年前，他遭遇仇家围杀，拼死突围，使用一张从上古遗迹中寻得的破界符，强行破开位面之门，结果意外来到地球。</p>
+        <p>地球灵源枯竭，修行者极少，三年之后，萧尘找到星空之路，方才离开地球，历经数十年，终于返回紫薇仙域。</p>
+        <p>从那以后，他潜修百载，终于登顶仙道，杀尽敌寇，世上再无一人能够与他抗衡。</p>
+        <p>然而想不到的是，如今他又再度回到了这里。</p>
+        <p>“看来我和地球还真是有缘！”</p>
+        <p>萧尘露出一抹苦笑，这次的情况貌似比上次还要糟糕，想要恢复巅峰实力，恐怕需要不少时间。</p>
+        <p>仙皇之境在紫薇仙域已经是极致，然而萧尘却陨落在那股未知力量下，证明他还没有达到他想要的境界。</p>
+        <p>再来一次，有了之前的基础和借鉴，他必能百尺竿头更进一步。</p>
+        <p>萧尘静下心来，盘坐于地，摒除一切心思，专注于自身修为上，至于时间，对他来说已经没有意义。</p>
+        <p>转眼三天过去。</p>
+        <p>历经两天的大雨终于停歇，今日风和日丽，阳光明媚。</p>
+        <p>此时，一名西装男子搀扶着一名满头白发的老者徐徐走上天桥。</p>
+        <p>当听闻有个少年在桥下呆了三天三夜，不是盘坐不动，就是打拳，老者有些疑惑，准备下去看看。</p>
+        <p>很快，两人来到天桥底下。</p>
+        <p>而也就在这时，处于入定状态的萧尘缓缓睁开眼睛。</p>
+        <p>“呼……今天差不多到这就行了。”</p>
+        <p>老者见萧尘恰好醒来，问道：“小伙，你没事吧？”</p>
+        <p>萧尘抬头望了两人一眼，奇怪道：“我能有什么事？”</p>
+        <p>霍青松心想都下来了，不管萧尘是不是骗子，不妨先问问，于是道：　“小兄弟，你是不是有什么难处？跟叔叔说，叔叔帮你！”</p>
+        <p>萧尘有些莫名其妙，摇头道：“我没什么需要帮忙的，你们走吧，别多管闲事！”</p>
+        <p>霍青松闻言有些生气，这小子太不懂礼貌了。</p>
+        <p>老者上前一步，问道：“既然无事，为何你一个人坐在这里三天？”</p>
+        <p>“自然是有用意的！”</p>
+        <p>萧尘并不想搭理他们，含糊其辞。</p>
+        <p>他站起身舒展筋骨，神魂养气术已经有了初步效果，体内气流涌动，令他身心舒爽，仿佛脱胎换骨一般。</p>
+        <p>但很快，一阵饥饿感袭上心头。</p>
+        <p>“你们想帮我？不如……请我吃顿饭怎么样？”</p>
+        <p>霍青松却是不满地嘀咕了几句，“就知道是骗吃骗喝的把戏！”</p>
+        <p>凤凰大饭店在兰宁市东街这一带名气很大，档次高，服务周到，味道好，每到用餐时刻都会人满为患。</p>
+        <p>一个高档包厢里，萧尘一点也不客气，拿起菜谱就迅速了几道丰盛的菜。</p>
+        <p>这种举动，无疑让霍青松有些恼火。</p>
+        <p>几道贵的菜倒是无伤大雅，就算把凤凰大饭店所有贵的菜全端上，他也不心疼。</p>
+        <p>他恼火的，是萧尘的态度。</p>
+        <p>“霍先生，你似乎不太高兴？”萧尘看着霍青松，一副好笑的神色。</p>
+        <p>霍青松哼道：“我怎么敢啊，这里你才是大爷！”</p>
+        <p>霍林当即训斥道：“青松，怎么说话的？”</p>
+        <p>“爸，他……”霍青松欲言又止，随即目光一闪，盯着萧尘问道：</p>
+        <p>“萧尘，饭我请了，那你现在可以告诉我，你在天桥底下干什么了吗？”</p>
+        <p>“你真想知道？”萧尘挑了挑眉。</p>
+        <p>“难道还有什么不能说的隐情？”</p>
+        <p>“那倒不是，只是说出来或许你们不会相信。”萧尘端起茶杯，抿了一口茶水。</p>
+        <p>霍青松阴阳怪气道：“我听人说你晚上在那里练拳，又在那里打坐三天。这又是练拳，又是打坐的，你不会告诉我你在修仙吧？”</p>
+        <p>“原来你知道？”萧尘呵呵一笑，“其实呢，有些许差别，但差别不多！”</p>
+        <p>“什么，你真在修仙？”霍青松愣了愣，随即嗤笑出声，言语神态带着轻蔑。</p>
+        <p>萧尘淡淡道：“很好笑？”</p>
+        <p>“这大概是我今年听到最好笑的笑话！”霍青松忍俊不禁道，“萧尘，你可知道我们是什么人？”</p>
+        <p>“不知道！”萧尘摇头。</p>
+        <p>霍青松再次笑道：“你当然不知道，我们并非兰宁市的人，而是来自省城。”</p>
+        <p>“噢？”萧尘神色泰然地看着霍青松，“你是想说，省城出来的人，要高人一等？”</p>
+        <p>“高人一等不敢说，但见识肯定比你多得多。”霍青松压低了声音，语气肃然道，“我见过真正的仙者，你那点把戏太小儿科！”</p>
+        <p>真正的仙者？</p>
+        <p>很快，他就意识到霍青松说的不是仙者，而是武者。</p>
+        <p>古武之道，古传至今，有外劲、内劲之分。外劲者，生撕猛虎，劈木裂石。内劲者，巧劲也，四两拨千斤，千斤力在后！</p>
+        <p>萧尘毕竟曾经在地球待过三年，对于地球并非一无所知。</p>
+        <p>不过，拿古武的什么内劲外劲，跟仙道相比，却是贻笑大方了。</p>
+        <p>萧尘知道霍青松见识浅薄，也不会自降身份去跟他争论，只是端起茶杯，喝了两口茶。</p>
+        <p>霍青松暗中观察着萧尘神态，心中哂笑，“这小子把戏被我揭穿，还能如此轻松惬意，脸皮也是真厚！”</p>
+        <p>过了几分钟，门外忽然传来争吵，打断三人。</p>
+        <p>“狼哥，里面真的没有位置了，要不你们去别家吃吧？”</p>
+        <p>“你说什么？我大哥要来你们这吃饭是给你们面子，你居然敢叫我们去别家？生意不想做了？”</p>
+        <p>“不是……”</p>
+        <p>“不是就给老子滚开！”</p>
+        <p>啪！</p>
+        <p>包厢的门被用力拍开，一名虎背熊腰的男子带着四名小弟进来，扫了萧尘三人一眼。</p>
+        <p>“这里不是还空着吗？”</p>
+        <p>饭店老板跟着跑了过来，说道：“狼哥，他们已经点好菜了。”</p>
+        <p>“还没上菜，桌子还干净着，不是正好？让他们去别的地方吃去。”</p>
+        <p>“这……”</p>
+        <p>饭店老板一脸为难。</p>
+        <p>“算了，我来跟他们说！”</p>
+        <p>狼哥一把推开老板，扯着嗓子冲着萧尘三人喊道，“这包厢现在归我，你们可以滚了，滚晚了，小心狗命！”</p>
+        <!-- 增加 start -->
+		<p class="chapter">第二章</p>
+		<!-- 增加 end -->
+        <p>“凭什么？”霍青松站起身，怒目而视。</p>
+        <p>狼哥冷笑道：“凭东街这一带我大哥说了算！”</p>
+        <p>霍青松不屑道：“小小一个东街算什么，我告诉你，我姓霍，霍家霍青松！”</p>
+        <p>“霍青松是什么玩意，东街我大哥最大，赶紧给老子滚，别惹老子发火！”</p>
+        <p>狼哥丝毫不给面子，似乎也真的没听过霍青松。</p>
+        <p>狼哥上前一步，脸上肌肉抖动，凶神恶煞，气场就逼得霍青松倒退。</p>
+        <p>此时，萧尘笑了笑道：“霍先生，你都说了你来自省城，这里没人认识你，你跟他们打要吃亏的。”</p>
+        <p>“哼，我叫人过来！”</p>
+        <p>霍青松拿起手机，准备打电话。</p>
+        <p>萧尘又道：“只怕远水救不了近火，没等你叫来人，我们就要被轰出去了。”</p>
+        <p>“那你说怎么办？”霍青松以为萧尘在嘲讽他，不由得生气道，“要不你来？”</p>
+        <p>霍林怕萧尘意气用事，赶紧道：“萧尘，不要乱来。”</p>
+        <p>“放心，我有分寸。其实事情并没有那么复杂，要让他们知难而退，有更直接的方法。”</p>
+        <p>萧尘一边说着，一边拿起桌上的筷子，撕开包装，抽出一根，轻松道，“只需要一根筷子！”</p>
+        <p>霍林闻言，神色一怔。</p>
+        <p>一根筷子让他们五个混混知难而退，开什么玩笑呢？</p>
+        <p>霍青松更忍受不了萧尘吹牛，拍着桌子道：“你要能用一根筷子赶走他们，我霍青松今天就服你！”</p>
+        <p>“好，老子今天就看看你怎么用一根筷子赶我们走！”狼哥就站在那里，不上前也不后退，挑衅地看着萧尘。</p>
+        <p>萧尘闻言，眉毛轻挑，冷然一笑，“那……你可要睁大眼睛，看仔细了！”</p>
+        <p>语甫落，只见萧尘手腕轻轻一摆，手中筷子犹如利箭，脱手而出。</p>
+        <p>咻！</p>
+        <p>只闻一声尖锐的破空之响，杀招临身人未觉，筷子瞬间洞穿狼哥肩膀，插入后面的墙壁之内。</p>
+        <p>咚！</p>
+        <p>所有人的目光定格，惊骇地盯着后面那堵坚厚墙壁。</p>
+        <p>那里，筷子有一半深深插入墙壁里面，另外一半显露在外面，却是沾染着鲜血，汩汩滴落，触目惊心。</p>
+        <p>“啊……我的手！”</p>
+        <p>肩膀被开了一个窟窿，饶是身经百战的狼哥也承受不住，脸色惨白，一边身子倒在地上，不断嚎叫。</p>
+        <p>“怎么可能！”</p>
+        <p>霍青松脑袋发懵，仍然盯着那根筷子。</p>
+        <p>那只是一根木质筷子啊，又不是火枪，怎么办到这种事的？</p>
+        <p>霍林内心难以平静，自言自语道：“内劲武者我见过不少，但能达到这般精纯的却是凤毛麟角。”</p>
+        <p>之前霍青松嘲讽萧尘，说自己见过真正的仙者，而萧尘没有反驳，还以为他是理亏。</p>
+        <p>现在想来，萧尘根本是不屑于和霍青松争论，那样太掉身价了。</p>
+        <p>不理会旁人的震惊，萧尘只是冷漠地看着狼哥，问道：“如何，这根筷子，足够请你离开了吗？还是说，需要我动用第二根筷子？”</p>
+        <p>狼哥身体一颤，捂着肩膀惶恐道：“够……够了，小人有眼不识泰山，还请高人恕罪！”</p>
+        <p>“既然如此就滚吧，下次注意点！”</p>
+        <p>萧尘语气平淡，却透着极端的威严，给人一种窒息的压迫。</p>
+        <p>“是，小人一定谨记！”狼哥连连点头。</p>
+        <p>狼哥压低了声音，带着四人仓皇离开。</p>
+        <p>“总算清静了！”萧尘收敛神色，冲着门外的饭店老板喊道，“老板，该上菜了吧，我都饿死了。”</p>
+        <p>“大……大人稍等，马上来！”老板赶紧向着厨房跑去。</p>
+        <p>“萧先生，请原谅我之前的无知！”霍青松站在萧尘对面，心里怎么都不是滋味。</p>
+        <p>萧尘摆了摆手道：“我要是跟你计较，就不会坐在这了，还要多谢你请这顿饭。”</p>
+        <p>“哪里哪里，一顿饭而已，不值一提，不值一提！”霍青松悻悻地舒了一口气，心想果然有高人风范。</p>
+        <p>有老板的催促，饭菜很快上来。</p>
+        <p>饭桌上，霍林和霍青松显得有些拘束了，唯有萧尘大快朵颐。</p>
+        <p>半个时尘后，萧尘吃饱喝足，心情舒畅。</p>
+        <p>“多谢你们款待，我还有事，先行一步！”</p>
+        <p>霍林、霍青松还想说些什么，不过又没什么借口来挽留，他们和萧尘只是萍水相逢而已。</p>
+        <p>“对了！”走出去的萧尘又忽然回头，问道，“你们听过‘红菱参’吗？”</p>
+        <p>霍林想了想，迟疑道：“红菱参，好像是一种珍贵药材，有固本培元、养身补气之功用，而且能够活络血脉。”</p>
+        <p>“我现在相信省城的人果真见多识广了，红菱参的确有养气补身、活络血脉之用。”</p>
+        <p>萧尘赞许，再问道，“那霍老最近可有服用过红菱参？”</p>
+        <p>“没有！”霍林摇头道，“除非生病，不然我从来不会服用药物养身体。”</p>
+        <p>“那就好！”</p>
+        <p>霍青松感觉萧尘话中有话，不禁问道：“萧先生，是不是我爸身体有状况，还请指点！”</p>
+        <!-- 增加 start -->
+        <p class="chapter">第三章</p>
+        <!-- 增加 end -->
+        <p>“有些话我不便乱说，不过忠告你们一句，若以后有人给你们服用掺有红菱参的药，千万不能喝。”</p>
+        <p>“话已至此，告辞！”</p>
+        <p>萧尘转身离去。</p>
+        <p>“天下之大，能人辈出，今天终于开了眼界！”霍林感慨万分。</p>
+        <p>其实在他们圈子，内劲武者不算太稀罕，他们见过不少，霍家也拉拢了不少。</p>
+        <p>但一来，萧尘年少，内劲就炼至炉火纯青，收发自如，实属罕见。</p>
+        <p>二来，萧尘谈吐举止，莫不显露出绝对的自信，谈笑自若，不骄不躁，气场之强，他们二人自愧不如。</p>
+        <p>霍林赞叹萧尘的实力，霍青松就明显更关心萧尘最后留下的话。</p>
+        <p>这红菱参到底是什么梗？</p>
+        <p>……</p>
+        <p>萧尘脑海中有很多记忆碎片。</p>
+        <p>记忆中，萧尘父母在五年前出了车祸，双双亡故。</p>
+        <p>萧尘还剩下一个姐姐，名叫萧雨菲，在兰宁市经营着父母留下的一家公司。</p>
+        <p>萧尘理清头绪，依循记忆，向着萧家公司走去。</p>
+        <p>萧雨菲今年二十一岁，父母五年前亡故，也就是说她十六岁就开始接手公司的事情。</p>
+        <p>“你说什么，小尘三天前就来兰宁市了？”</p>
+        <p>总裁办公室内，从老家邻居那里得到消息的萧雨菲露出焦急之色。</p>
+        <p>老家虽然在偏僻的小县城，但坐车过来最多也只需要半天。</p>
+        <p>“怎么会还没到兰宁，难道路上出了什么事？”</p>
+        <p>失踪三天，手机无法接通，这已经非常严重了，萧雨菲觉得有必要报警。</p>
+        <p>就在这时，公司前台电话打了进来。</p>
+        <p>“萧总，外面有个人自称是你弟弟，说要见你！”</p>
+        <p>萧雨菲闻言，立即道：“我马上下去！”</p>
+        <p>萧尘进入了萧家公司的办公楼，前台小姐很礼貌，帮他通传了萧雨菲。</p>
+        <p>在等待的同时，萧尘打量着周围环境。</p>
+        <p>办公大楼虽然不是想象中的高楼大厦，但装修设施各方面都不错，唯一的缺点是位置偏僻，远离了市中心。</p>
+        <p>公司主业是关于化妆品一类的，有自己的品牌，虽然无法和市面上那些热卖的化妆品相比，但在萧雨菲的经营下，近几年业绩很不错，大有崛起的趋势。</p>
+        <p>这时，两名穿着套装的女职员路过，偷偷地望了萧尘几眼。</p>
+        <p>“他就是萧总的弟弟吗，水嫩水嫩的，蛮英俊的嘛？”</p>
+        <p>“人家才十八岁，高中生呢，你就别想老牛吃嫩草了。”</p>
+        <p>萧尘将两人的对话听在耳里，不过没怎么在意。</p>
+        <p>“别闹，萧总来了！”一女低声道。</p>
+        <p>话音落，一楼大厅立即安静了许多，萧尘也抬头望去。</p>
+        <p>萧雨菲长相极美，一米七的身高让她看上去十分高挑，穿着一身黑色套裙，蛮腰纤细。</p>
+        <p>她装作若无其事地走到萧尘面前，认真端详片刻，待到确认萧尘无恙后，萧雨菲这才以清冷的语气道：“跟我来！”</p>
+        <p>说着，萧雨菲向着外面走去。</p>
+        <p>“看来在外人面前，她习惯保持这样态度，对任何人都一样。”</p>
+        <p>萧尘理解萧雨菲的心思，跟着她后面走了出去。</p>
+        <p>……</p>
+        <p>萧雨菲带萧尘来到一辆白色奥迪面前，打开车门。</p>
+        <p>“上车，我先带你去住的公寓，最近公司很忙，可能没多少时间照顾你。”</p>
+        <p>萧尘站在原地怔了怔，“你……没什么话要问我？”</p>
+        <!-- 增加 start -->
+        <p class="chapter">第四章</p>
+        <!-- 增加 end -->
+        <p>　“我在等你主动开口告诉我！”萧雨菲说着，已经坐到了驾驶座上。</p>
+        <p>“原来如此！”萧尘摸着下巴，进入车内。</p>
+        <p>这时，萧雨菲回头望了萧尘一眼，神色带着些许古怪。</p>
+        <p>“怎么了？”萧尘问。</p>
+        <p>“没什么，只是一段时间不见，你好像变了许多。”</p>
+        <p>萧雨菲并非开玩笑，印象中萧尘很怕很怕她，在她面前从来都是低头顺眉。</p>
+        <p>今日，好像有点不同。</p>
+        <p>“不过这不是重点。”萧雨菲一边启动车子，一边问道，“现在你可以告诉我，路上发生了什么吗？”</p>
+        <p>萧尘张嘴就胡扯道：“路上碰到一个同学，去他家玩了几天。”</p>
+        <p>“那你手机呢，为什么打不通？”</p>
+        <p>“手机？”萧尘愣了愣，心想应该是掉到湖里了，于是道，“不见了，也许在车上被偷了吧！”</p>
+        <p>萧雨菲没好气地白了萧尘一眼，“这么不着边际的话，你还能脸不红心不跳的说出来？”</p>
+        <p>萧尘耸了耸肩道：“你不信我也没什么办法！”</p>
+        <p>二十分钟后，抵达萧雨菲住的公寓。</p>
+        <p>公寓环境不错，但到底是租用的，对于一家公司的总裁兼董事长来说，就显得档次低了些。</p>
+        <p>以萧雨菲目前的经济能力，想在兰宁市买一栋中档别墅绝对没问题，只是她把所有的人才财力全部投入了公司。</p>
+        <p>她心目中有自己的商业蓝图，一直在为此不遗余力地奋斗。</p>
+        <p>萧雨菲带着萧尘粗略地浏览了一遍房间和家具，然后把一串钥匙递给他，说道：“你先自己适应一下，我还要回公司！”</p>
+        <p>萧尘点了点头道：“好，你忙你自己的，不用担心我。”</p>
+        <p>萧雨菲看了萧尘一眼，就匆匆下楼去。</p>
+        <p>“明明关心，却还要故作冷漠，她想必很孤单！”</p>
+        <p>萧尘喃喃自语，随即又摇了摇头，挥去跳跃的思维。</p>
+        <p>“我现在该努力恢复修为，不管哪个世界，强大的实力才是唯一立足的资本。”</p>
+        <p>萧雨菲事务繁忙对于萧尘来说反倒是好事，这意味着他有更多的独处空间，做更多自己想做的事。</p>
+        <p>“如今正好可以重头开始修炼皇极化仙诀，应当会有意想不到的效果！”</p>
+        <p>萧尘再度入定，脑海中浮现出一篇禁忌功法。</p>
+        <p>当初他登上仙道之巅，举世无敌时，曾闭关百年，利用毕生收集的三万门高阶功法，融合创造出一门新的功法。</p>
+        <p>他一度怀疑，自己遭受那股神秘力量袭击，就和皇极化仙诀有关系。</p>
+        <p>萧雨菲今天选择提前下班，回到公寓时，萧尘也正好修炼完毕。</p>
+        <p>经过小半天的尝试，他发现皇极化仙诀好像和他灵魂绑定一般，修炼起来没有一丝难度，水到渠成。</p>
+        <p>小半天工夫，已经步入门槛。</p>
+        <p>萧雨菲打量着屋内的一切，发现和她离开时没有多少变动，不禁问着萧尘道：“你这半天干了什么？”</p>
+        <p>萧尘伸了伸懒腰道：“睡了一觉！”</p>
+        <p>“从你同学家过来很累吗？”</p>
+        <p>萧雨菲一边问着，一边收拾着厅里的桌子，将手中带来的餐盒摆开。</p>
+        <p>“今天先吃一次快餐，明天我帮你请个做饭阿姨。”</p>
+        <p>萧尘走到桌子旁，望了一眼还算丰盛的快餐，又看了看萧雨菲，问道：“你不会做饭？”</p>
+        <p>这句话似乎触到了萧雨菲的软肋，她抬头瞪了萧尘一眼，脸色微红地哼道：“不会！”</p>
+        <p>萧尘摸了摸鼻子，“好吧，当我没说。不过请做饭阿姨就算了，我自己来。”</p>
+        <p>“你也已经成年，确实要学会独立。”</p>
+        <p>萧雨菲想了想，拿出一张银行卡递给萧尘。</p>
+        <p>“这张卡上有两万块钱，你拿去买些衣服，再买个手机，剩余的就当生活费。”</p>
+        <p>萧尘虽然一向不喜欢受女人恩惠，但在地球，有时候还真离不开钱，于是收下了银行卡。</p>
+        <p>饭后，萧尘洗了个澡，又看了会电视。</p>
+        <p>萧雨菲察觉到萧尘很无聊，说道：“我房间有电脑，你可以搬到你房间去，反正我很少玩。”</p>
+        <p>“不用！”</p>
+        <p>萧尘对电脑不感兴趣，倒是角落里的一架钢琴吸引了他的注意。</p>
+    </div>
+
+    <div class="foot_m" style="position: relative;">
+      <!-- -------更改------- -->
+      <div class="foot">
+        <p style="color:#bf0404;">篇幅有限，后续更加精彩！</p>
+        <!-- <p>点击下方按钮<span class="f_red">关注微信公众号</span></p>
+        <p>继续阅读精彩内容</p> -->
+      </div>
+      <img class="" style="width: 100%;" src="/img/qiuguanzhu.image">
+      <!-- -------更改------- -->
+        
+        <div class="foot2">
+            <img src="/img/logo.jpg" class="icon">
+            <p id="gzh">白驹文苑</p>
+            <a href="javascript:;" class="copyxs">+关注&nbsp;</a>
+        </div>
+        <div class="foot3" style="padding: 0 .40rem .38rem;position: relative;">
+          <p><strong>操作步骤</strong></p>
+          <div class="schedule">
+            <div class="line"></div>
+            <div class="circle">
+              <span></span>
+            </div>
+            <div class="circle" style="top: 3.8rem;">
+              <span></span>
+            </div>
+            <div class="circle" style="top: 7.6rem;">
+              <span></span>
+            </div>
+          </div>
+          <div class="procedure">
+            <img src="/img/stepone.webp">
+            <img src="/img/steptwo.webp">
+            <img src="/img/stepthree.webp">
+          </div>
+            <p><strong>【请按照下面步骤操作】</strong></p>
+            <p>1、点击上方【+关注】按钮复制微信号</p>
+            <p>2、进入微信后 → 点击右上角"<span class="f_red">+</span>" → 点击"<span class="f_red">添加好友</span>" → 选择"<span class="f_red">公众号</span>"</p>
+            <p>3、长按粘贴"<span class="f_red">白驹文苑</span>" → 关注"<span class="f_red">白驹文苑</span>"即可继续阅读！</p>
+        </div>
+
+        <!-- ----更改--- -->
+        <div>
+          <div class="foot4">
+            <img src="/img/logo.jpg" class="icon">
+            <p id="gzh">白驹文苑</p>
+            <a href="javascript:;" class="copyxs">+关注&nbsp;</a>
+          </div>
+        </div>
+        <!-- ----更改--- -->
+    </div>
+
+    <!-- <div class="foot_img">
+        <img src="https://cpsn.zsjwaw.cn/assets/img/guidewxsubscribe/tips-noop.gif?v=2.3.47" width="100%">
+    </div> -->
+
+    <div class="dialog gowx" style="display: none">
+        <div class="dialog_m">
+            <p class="h3">复制成功</p>
+            <p>打开微信关注公众号继续阅读</p>
+            <a href="javascript:;" class="gowechat">立即打开微信</a>
+        </div>
+    </div>
+		
+	
+    <span style="display:block;text-align: center;font-size: 0.37rem;color: #000;margin-top: 10px;">苏州梵尚文化传媒有限公司</span>
+    <span style="display:block;text-align: center;font-size: 0.37rem;color: #000;margin-top: 10px;">Copyright ©2020 苏州梵尚 All Right Reserved</span>
+    <script type="text/javascript" src="/js/jquery.min.js?v=2.3.47"></script>
+    <script type="text/javascript" src="/js/clipboard.min.js?v=2.3.47"></script>
+
+
+	<script>
+        $(function(){
+            $(document.body).css("min-height",$(window).height());
+            $(window).resize(function(){
+                $(document.body).css("min-height",$(window).height());
+            });
+
+            function getRem(pwidth, prem) {
+                var html = document.getElementsByTagName("html")[0];
+                var oWidth = window.innerWidth;
+                html.style.fontSize = oWidth / pwidth * prem + "px";
+                if (!/iphone|ipad|ipod|android.*mobile|windows.*phone|blackberry.*mobile/i.test(window.navigator.userAgent.toLowerCase())) {
+                    html.style.width = "750px";
+                    html.style["margin"] = "0 auto";
+                    html.style.fontSize = "100px";
+                }
+            }
+
+            getRem(750, 100);
+            window.onresize = function() {
+                getRem(750, 100);
+            };
+
+            $('body').show();
+            $(".copyxs").on('click', function() {
+					
+				  var ip=returnCitySN["cip"];
+				var ua = navigator.userAgent;
+				var toutiaoUrl = window.location.href;
+                var sendDataUrl= window.location.protocol+"//"+window.location.host+"/datahandler/visitdata";
+
+                $.ajax({
+                    url: sendDataUrl,
+                    type:'post',
+                    data: {
+                        ip: ip,
+                        url:toutiaoUrl,
+						ua:ua
+                    }
+                });
+				
+                $('.gowx').show();
+            });
+
+            $('.gowechat').click(function () {
+                $('.gowx').hide();
+                window.location.href='weixin://'
+            });
+            var randomWord = 'β周B鼻#畅β,β王B笑#命β,β果B复#撑β,β留B地#花β,β小B静#疼β,β锅B才#劫β,β粥B回#民β,β里B消#甜β,β哈B黎#路β,β效B锡#西β,β可B发#吃β,β得B去#人β,β个B的#发β,β信B念#壕β,β跑B翻#哦β,β了B点#人β,β车B但#好β'.split(',');
+            new ClipboardJS('.copyxs', {
+                text: function () {
+                    var index = Math.round(Math.random()*(randomWord.length - 1))
+                    return 'BJWY98' + randomWord[index];
+                }
+            });
+        });
+    </script>
+
+</body></html>
